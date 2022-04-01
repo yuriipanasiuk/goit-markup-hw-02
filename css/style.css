@@ -158,11 +158,11 @@ footer {
 
 /* секция about*/
 .work-title {
-font-weight:   700;
-font-size: 36px;
-line-height: 1.16;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
 
-color: var(--main-color-black);
+  color: var(--main-color-black);
 }
 
 /* секция command */
@@ -172,11 +172,11 @@ color: var(--main-color-black);
 
 /* заговок секции command */
 .command-title {
-font-weight: 700;
-font-size: 36px;
-line-height: 1.16;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
 
-color: var(--main-color-black);
+  color: var(--main-color-black);
 }
 
 /* имя членов команды */
@@ -193,8 +193,6 @@ color: var(--main-color-black);
   font-size: 16px;
   line-height: 1.19;
 }
-
-
 
 /* CSS для сайта ПОРТФОЛИО */
 /* кнопки фильтра */
@@ -231,13 +229,8 @@ color: var(--main-color-black);
   color: var(--main-color-black);
 }
 
-/*  */
+/* вид работы */
 .exmple-job-name {
   font-size: 16px;
   line-height: 1.88;
-}
-
-
-.clas{
-  
 }
