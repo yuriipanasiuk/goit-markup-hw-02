@@ -156,9 +156,27 @@ footer {
   color: var(--main-color-black);
 }
 
+/* секция about*/
+.work-title {
+font-weight:   700;
+font-size: 36px;
+line-height: 1.16;
+
+color: var(--main-color-black);
+}
+
 /* секция command */
 .command {
   background-color: var(--section-bg-color);
+}
+
+/* заговок секции command */
+.command-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+
+color: var(--main-color-black);
 }
 
 /* имя членов команды */
@@ -217,4 +235,9 @@ footer {
 .exmple-job-name {
   font-size: 16px;
   line-height: 1.88;
+}
+
+
+.clas{
+  
 }
