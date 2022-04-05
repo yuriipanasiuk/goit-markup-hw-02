@@ -13,13 +13,11 @@ body {
   margin-left: 15px;
   max-width: 1600px; */
 
+  color: var(--main-color);
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--main-color);
 
   background-color: var(--main-color-white);
 }
@@ -33,13 +31,12 @@ body {
   padding-bottom: 25px;
   padding-left: 215px; */
 
-  /* text-decoration: none; */
+  color: var(--accent-color);
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-
-  color: var(--accent-color);
+  text-decoration: none;
 }
 
 /* цвет второй части логотипа в шапке сайта */
@@ -48,16 +45,19 @@ body {
 }
 
 /* навигация в шапке сайта */
+.list {
+  list-style: none;
+}
+
 .nav-link {
   /* padding-top: 32px;
   padding-bottom: 32px; */
 
+  color: var(--main-color-black);
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  /* text-decoration: none; */
-
-  color: var(--main-color-black);
+  text-decoration: none;
 }
 
 .nav-link:hover,
@@ -67,12 +67,11 @@ body {
 
 /* контакты в шапке сайта */
 .contact-header {
+  color: var(--main-color);
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  /* text-decoration: none; */
-
-  color: var(--main-color);
+  text-decoration: none;
 }
 
 .contact-header:hover,
@@ -97,15 +96,14 @@ footer {
 
 /* контакты в подвале сайта */
 .contact-footer {
-  /* display: block;
-  text-decoration: none; */
+  /* display: block;*/
 
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 
 /* секция герой */
 .hero {
-  /* text-align: center; */
   background-color: var(--bg-color);
 }
 
@@ -114,13 +112,13 @@ footer {
   /* padding-top: 215px;
   padding-bottom: 30px; */
 
+  color: var(--main-color-white);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
+  text-align: center;
   /* text-transform: uppercase; */
-
-  color: var(--main-color-white);
 }
 
 /* кнопка секции герой */
@@ -132,12 +130,13 @@ footer {
 
   margin-bottom: 200px; */
 
+  color: var(--main-color-white);
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
 
-  color: var(--main-color-white);
   background-color: var(--accent-color);
 
   cursor: pointer;
@@ -148,21 +147,21 @@ footer {
 }
 
 /* секция наши преимущества "advantages"*/
+
 .advantages-title {
+  color: var(--main-color-black);
   font-weight: 700;
   line-height: 1.14;
   /* text-transform: uppercase; */
-
-  color: var(--main-color-black);
 }
 
-/* секция about*/
+/* секция work*/
 .work-title {
+  color: var(--main-color-black);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
-
-  color: var(--main-color-black);
+  text-align: center;
 }
 
 /* секция command */
@@ -172,20 +171,19 @@ footer {
 
 /* заговок секции command */
 .command-title {
+  color: var(--main-color-black);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
-
-  color: var(--main-color-black);
+  text-align: center;
 }
 
 /* имя членов команды */
 .command-name {
+  color: var(--main-color-black);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-
-  color: var(--main-color-black);
 }
 
 /* професия членов команды */
@@ -196,18 +194,19 @@ footer {
 
 /* CSS для сайта ПОРТФОЛИО */
 /* кнопки фильтра */
+
 .btn {
   /* padding-top: 6px;
   padding-bottom: 6px;
   padding-right: 22px;
   padding-left: 22px; */
 
-  font-family: "Roboto", sans-serif;
+  color: var(--main-color-black);
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
 
-  color: var(--main-color-black);
   background-color: var(--bg-button);
 
   cursor: pointer;
@@ -221,16 +220,20 @@ footer {
 
 /* заголовок примеры работ */
 .example-name {
+  color: var(--main-color-black);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+}
 
-  color: var(--main-color-black);
+.example-link {
+  text-decoration: none;
 }
 
 /* вид работы */
 .exmple-job-name {
+  color: var(--main-color);
   font-size: 16px;
   line-height: 1.88;
 }
