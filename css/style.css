@@ -15,7 +15,7 @@ body {
 
   color: var(--main-color);
   font-family: "Roboto", sans-serif;
-  font-style: normal;
+  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 
@@ -154,6 +154,7 @@ footer {
 
 .advantages-title {
   color: var(--main-color-black);
+  font-size: inherit;
   font-weight: 700;
   line-height: 1.14;
   /* text-transform: uppercase; */
