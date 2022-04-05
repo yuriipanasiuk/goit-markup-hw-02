@@ -102,6 +102,10 @@ footer {
   text-decoration: none;
 }
 
+.contact-footer:hover,
+.contact-footer:focus {
+  color: var(--accent-color);
+}
 /* секция герой */
 .hero {
   background-color: var(--bg-color);
