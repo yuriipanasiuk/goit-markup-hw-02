@@ -19,30 +19,12 @@ body {
   background-color: var(--main-color-white);
 }
 
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-}
-
 ul {
   list-style: none;
-  margin: 0;
-  padding-left: 0;
 }
 
 a {
   text-decoration: none;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
 }
 
 .logo {
@@ -139,7 +121,7 @@ address {
 }
 
 .team__list {
-  background-color: var(--main-color-white);
+  background-color: #ffffff;
 }
 
 .team__title {
@@ -149,10 +131,6 @@ address {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
-}
-
-.team__list {
-  background-color: var(--main-color-white);
 }
 
 .team__name {
