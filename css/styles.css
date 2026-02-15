@@ -133,6 +133,12 @@ img {
   line-height: 1.2;
 }
 
+/* ================= PORTFOLIO ================= */
+
+.porfolio__image {
+  width: 360px;
+}
+
 .footer {
   background-color: var(--bg-color);
 }
