@@ -138,6 +138,10 @@ address {
   background-color: var(--section-bg-color);
 }
 
+.team__list {
+  background-color: var(--main-color-white);
+}
+
 .team__title {
   color: var(--main-color-black);
   font-size: 36px;
